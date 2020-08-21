@@ -8,8 +8,7 @@ while True:
        pyttsx3.speak("how can i help u")
        print("How can I help you :" , end=' ' )
        p= input()
-       #print(p)
-       #os.system(x)
+       
 
        if  (("run" in p) or  ("open" in p) or ("launch" in p))  and  (("chrome " in p) or  ("browser" in p)) :
          pyttsx3.speak("Opening chrome for you plz wait")
